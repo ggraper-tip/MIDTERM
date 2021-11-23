@@ -11,15 +11,15 @@
     <center><div class="container" id="container">
         <div class="form-container sign-in-container">
             <form action="{{ url_for('createdAcc') }}" method="POST">
-                <h1>Login</h1>
+                <h1>Login Page</h1>
                 <input type="username" name="UserName" id="UserName" placeholder="UserName" />
                 <input type="password" name="password" id="password_login" placeholder="Password" />
                 
-                <button id="btn_signin">Register</button>
+                <button id="btn_signin">Login</button>
                 <br>
                 <br>
                 <a href="{{ url_for('register') }}" class="button">
-                    Sign Up
+                    Register
                 </a>
             </form>
         </div>
